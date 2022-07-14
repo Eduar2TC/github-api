@@ -18,8 +18,8 @@ function getProfile(e){
             userData.bio = userData.bio != null ? userData.bio : userData.bio = 'Without biography'  ;
             document.getElementById('user-result').innerHTML = 
             `
-            <div class="card mb-3" style="max-width: 700px; min-width: 450px">
-                <div class="row g-0">
+            <div class="card mb-3">
+                <div class="row g-0 g-md-1">
                     <div class="col-md-4">
                     <img src="${userData.avatar_url}" class="rounded-start" alt="profile">
                     </div>
